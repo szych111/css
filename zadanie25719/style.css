@@ -1,0 +1,32 @@
+body {
+    background-color: peru;
+    color:#e3e3ec;
+}
+p {
+    padding: 10px;;
+}
+p.p1 {
+    background-color: sienna;
+}
+p.p2 {
+    background-color: tomato;
+}
+li {
+    font-size: 20px;;
+    font-weight: 700;
+}
+li.kolor3 {
+    color: rgb(95, 124, 148);
+}
+li.kolor4 {
+    color: rgb(74, 89, 100);
+}
+li.kolor5 {
+    color: rgb(8, 57, 97);
+}
+li.kolor1 {
+    color: rgb(166, 179, 189);
+}
+li.kolor2 {
+    color: rgb(122, 141, 156);
+}

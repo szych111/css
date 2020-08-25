@@ -1,0 +1,29 @@
+div#main {
+    background-color: #f5f5dd;
+    width: 300px;
+    height: auto;
+    margin: auto;
+    padding: 30px;
+}
+div.square {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    padding: 10px;
+}
+div.n1 {
+    background-color: rgba(0,0,0,1.0);
+    margin-bottom: 10px;
+}
+div.n2 {
+    background-color: rgba(0,0,0,0.6);
+    margin-bottom: 10px;
+}
+div.n3 {
+    background-color: rgba(0,0,0,0.4);
+    margin-bottom: 10px;
+}
+div.n4 {
+    background-color: rgba(0,0,0,0.2);
+    margin-bottom: 10px;
+}

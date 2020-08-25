@@ -1,0 +1,23 @@
+div {
+    background-color: #faebd6;
+    padding-top: 10px;
+    padding-bottom: 70px;
+}
+
+h1 {
+    color: #ff0000;
+    font-size: 50px;
+}
+
+p {
+    font-size: 30px;
+    padding: 10px;
+}
+
+p.brown {
+    color: #a42423;
+}
+
+p.blue {
+    color: #00008f;
+}

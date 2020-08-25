@@ -1,0 +1,10 @@
+p {
+    color: lightcoral;
+}
+h1, h3 {
+    background-color: lightcyan;
+    color: lightpink;
+}
+h1 + h3 {
+    color: rgb(170, 170, 8);
+}

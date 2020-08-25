@@ -1,0 +1,14 @@
+body {
+    columns: 2;
+}
+p {
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+}
+p.bluecolor {
+    background-color: blue;
+}
+p.difopacity {
+    opacity: 0.5;
+}

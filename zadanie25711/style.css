@@ -1,0 +1,18 @@
+
+
+div#main {
+    background-color: #808080;
+    width: 300px;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+}
+div.orange {
+    background-color: #fea500;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+h1 {
+    color: #ffffff;
+}
