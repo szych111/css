@@ -3,6 +3,7 @@ function isnHundredSomething(n) {
         console.log('Liczba znajduje sie w przedziale');
     } else {
         console.log('Liczba nie znajduje sie w przedziale');
-    }
-}
+    };
+};
+isnHundredSomething(5);
 
