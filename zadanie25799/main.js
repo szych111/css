@@ -1,7 +1,8 @@
-
+let myPar = document.getElementById('opis');
+let myButton = document.querySelector('button');
+myButton.onclick = tresc();
 
 function tresc() {
-    document.getElementById('opis').textContent = 'Poznaj nasz nowy produkt';
+    myPar.textContent = 'Poznaj nasz nowy produkt';
 };
 
-document.querySelector('button').onclick = tresc();
