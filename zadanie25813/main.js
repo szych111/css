@@ -5,7 +5,7 @@ let inputTelefon = document.getElementById('telefon');
 document.querySelector('button').onclick = getData;
 
 function getData() {
-    document.getElementById('name').textContent = inputImie.nodeValue;
-    document.getElementById('surname').textContent = inputNazwisko.nodeValue;
-    document.getElementById('phone').textContent = inputTelefon.nodeValue;
+    document.getElementById('name').textContent = inputImie.value;
+    document.getElementById('surname').textContent = inputNazwisko.value;
+    document.getElementById('phone').textContent = inputTelefon.value;
 }
