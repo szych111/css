@@ -1,0 +1,47 @@
+#main {
+    width: 458px;
+    height: 458px;
+    margin: auto;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.round {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border-color: black;
+    border-width: 2px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.red {
+    background-color: red;
+}
+.grey {
+    background-color: grey;
+}
+.blue {
+    background-color: blue;
+}
+.green {
+    background-color: green;
+}
+.purple {
+    background-color: purple;
+}
+.yellow {
+    background-color: yellow;
+}
+.black {
+    background-color: black;
+}
