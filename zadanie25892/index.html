@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <label for="imie">Imie:</label>
+        <input type="text" id="imie" name="imie">
+        <label for="nazwisko">Nazwisko:</label>
+        <input type="text" id="nazwisko" name="nazwisko">
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email">
+        <label for="telefon">Numer telefonu:</label>
+        <input type="tel" id="telefon" name="telefon">
+
+        <label for="miasto">Wybierz miasto:</label>
+        <select id="miasto" name="miasto">
+          <option value="krakow">Krakow</option>
+          <option value="warszawa">Warszawa</option>
+          <option value="gdansk">Gdansk</option>
+        </select> 
+    
+        <input type="radio" id="male" name="plec" value="male">
+        <label for="male">M</label>
+        <input type="radio" id="female" name="plec" value="female">
+        <label for="female">K</label>
+    
+        <input type="checkbox" id="zgoda" name="zgoda" required>
+        <label for="zgoda"> Zgadzam sie na ... </label>
+   
+        <textarea name="wiadomosc" rows="10" cols="30">Tu wpisz swoja wiadomosc
+        </textarea>
+        
+        <input type="submit" value="Wyslij">
+    
+    </form>
+    
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>

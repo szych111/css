@@ -40,7 +40,7 @@ body {
 
 .open .accordion-title::before {
     content: "-";
-}
+} 
 
 .accordion-content {
     display: none;

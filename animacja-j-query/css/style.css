@@ -1,0 +1,13 @@
+.square {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 25px;
+    
+}
+
+h2 {
+    color: #fff;
+    padding: 10px;
+    font-size: 15px;
+}
