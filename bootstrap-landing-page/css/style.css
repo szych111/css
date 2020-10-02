@@ -1,0 +1,46 @@
+
+.header {
+    padding: 60px 0;
+}
+
+section, footer {
+    padding: 60px 0;
+}
+
+.main-section {
+    padding: 0;
+}
+
+.main-section-img {
+    background-size: cover;
+    background-position: center;
+}
+
+.main-section-text {
+    padding: 50px;
+}
+
+.team-member {
+    max-width: 200px;
+}
+
+.call-to-action {
+    background-image: url(../img/slider-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 768px) {
+    .header-item, 
+    .team-member {
+        margin-bottom: 50px;
+    }
+    .header-item:last-child, 
+    .team-member-last {
+        margin-bottom: 0;
+    }
+    .main-section-img {
+        height: 300px;
+    }
+
+}
