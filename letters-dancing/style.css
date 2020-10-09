@@ -1,0 +1,14 @@
+* {
+    text-align: center;
+    margin-top: 10%;
+    font-size: 100px;
+
+}
+
+.pink {
+    color: pink;
+}
+
+p {
+    position: relative;
+}
